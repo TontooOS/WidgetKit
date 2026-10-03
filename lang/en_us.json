@@ -1,0 +1,12 @@
+{
+  "socket_missing": "Settings daemon socket not found",
+  "connection_failed": "Failed to connect to the settings daemon",
+  "protocol_error": "Settings daemon protocol error",
+  "server_error": "Settings daemon reported an error",
+  "parse_error": "Failed to parse the settings daemon reply",
+  "no_descriptors": "No widget descriptors were supplied",
+  "duplicate_id": "A widget with this id is already registered",
+  "empty_id": "Widget id must not be empty",
+  "invalid_size": "Unknown widget size",
+  "missing_size": "A widget must support at least one size"
+}

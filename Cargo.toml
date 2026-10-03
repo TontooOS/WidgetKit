@@ -1,0 +1,21 @@
+[package]
+name = "widgetkit"
+version = "27.0.0"
+edition = "2021"
+license = "TCL"
+description = "WidgetKit for TontooOS - declare desktop widgets, register them with the settings daemon"
+authors = ["arlomu"]
+repository = "https://github.com/TontooOS/Libs"
+readme = "README.md"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+name = "widgetkit"
+path = "src/lib.rs"
+
+[[example]]
+name = "register_clock"
+path = "examples/register_clock.rs"
+
+[dependencies]
+foundation = { path = "../Foundation" }

@@ -1,0 +1,12 @@
+{
+  "socket_missing": "Socket des Settings-Daemons nicht gefunden",
+  "connection_failed": "Verbindung zum Settings-Daemon fehlgeschlagen",
+  "protocol_error": "Protokollfehler des Settings-Daemons",
+  "server_error": "Der Settings-Daemon hat einen Fehler gemeldet",
+  "parse_error": "Antwort des Settings-Daemons konnte nicht gelesen werden",
+  "no_descriptors": "Es wurden keine Widget-Beschreibungen übergeben",
+  "duplicate_id": "Ein Widget mit dieser id ist bereits registriert",
+  "empty_id": "Die Widget-id darf nicht leer sein",
+  "invalid_size": "Unbekannte Widget-Größe",
+  "missing_size": "Ein Widget muss mindestens eine Größe unterstützen"
+}
