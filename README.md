@@ -1,6 +1,6 @@
-# Tontoo Name
+# Tontoo WidgetKit
 
-Description
+The TontooOS WidgetKit, Allows apps to make Widgets for the Desktop.
 
 ## Made for TontooOS
 
@@ -12,14 +12,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-sdk = { path = "/Library/System/sdk", features = ["Name"] }
-```
-
-Then at the crate root:
-
-```rust
-sdk::preinclude!();
-use Name::{{ /* ... */ }};
+sdk = { path = "/Library/System/sdk", features = ["WidgetKit"] }
 ```
 
 ## License
